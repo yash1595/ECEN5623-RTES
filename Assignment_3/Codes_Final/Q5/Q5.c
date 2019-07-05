@@ -21,9 +21,10 @@
 pthread_t pthread_arr[2];                                                       //Array to store pthreads.
 pthread_mutex_t MUTEX; 
 
-struct DATA_STRUCT                                                              //Structure to store float values of X,Y,Z and time stamp.
+struct DATA_STRUCT
 {
-    float x,y,z;
+    float x,y,z;                                                     // -500 to 500m/s^2 
+    float yaw,pitch,roll;                                            // y = 0 - 360, p,r = -90 to 90
     struct timespec start,finish;
     long time_stamp_sec, time_stamp_nsec;
 };
@@ -49,9 +50,42 @@ while(1)
         clock_gettime(CLOCK_SOURCE,&current_time);
         printf("Mutex acquired at %ld.%ld\n",current_time.tv_sec, current_time.tv_nsec);
         
-        data_struct_write.x = (rand()%1000)*0.001;                              // Stores random data in range (0-1)
-        data_struct_write.y = (rand()%1000)*0.001;
-        data_struct_write.z = (rand()%1000)*0.001;
+        data_struct_write.x = (rand()%1000);                    // Stores random values. Used %1000 to get a better range than %10.
+            data_struct_write.y = (rand()%1000);
+            data_struct_write.z = (rand()%1000);
+            
+            data_struct_write.yaw   = rand()%360;
+            data_struct_write.pitch = rand()%180;
+            data_struct_write.roll  = rand()%180;
+            
+            if(data_struct_write.x > 500)
+            {
+                data_struct_write.x=(1000-data_struct_write.x);
+                data_struct_write.x*=-1;
+            }
+
+            if(data_struct_write.y > 500)
+            {
+                data_struct_write.y=(1000-data_struct_write.y);
+                data_struct_write.y*=-1;
+            }
+            if(data_struct_write.z > 500)
+            {
+                data_struct_write.z=(1000-data_struct_write.z);
+                data_struct_write.z*=-1;
+            }
+                
+            if(data_struct_write.pitch > 90)
+            {
+                data_struct_write.pitch=(180-data_struct_write.pitch);
+                data_struct_write.pitch*=-1;
+            }
+
+            if(data_struct_write.roll > 90)
+            {
+                data_struct_write.roll=(180-data_struct_write.roll);
+                data_struct_write.roll*=-1;
+            }
         
         clock_gettime(CLOCK_SOURCE,&data_struct_write.finish);                  // Stores the final time.
         
@@ -102,6 +136,9 @@ void* TimedAccess(void)
                 printf("X:%.2f\n",data_struct_read->x);
                 printf("Y:%.2f\n",data_struct_read->y);
                 printf("Z:%.2f\n",data_struct_read->z);
+                printf("yaw:%.2f\n",data_struct_read->yaw);
+                printf("Pitch:%.2f\n",data_struct_read->pitch);
+                printf("Roll:%.2f\n",data_struct_read->roll);
                 
                 printf("Time stamp:%d.%d\n",data_struct_read->time_stamp_sec,data_struct_read->time_stamp_nsec);
                 pthread_mutex_unlock(&MUTEX);

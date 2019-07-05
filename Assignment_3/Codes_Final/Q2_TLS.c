@@ -1,103 +1,67 @@
+#include<stdio.h> 
+#include<string.h> 
+#include<pthread.h> 
+#include<stdlib.h> 
+#include<unistd.h> 
+#include <time.h> 
+#include <sys/time.h>  
 
-#ifndef _OPEN_THREADS
-#define _OPEN_THREADS
-#endif
+#define SIZE	(2)
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <pthread.h>
+int global_index_data[2]={0x24,0x45};
+pthread_t threads[3];
 
-#define threads 3
-#define BUFFSZ  48
-pthread_key_t   key;
+void* (*function_ptr[3])(void);
 
-void            *threadfunc(void *parm)
+void* read_data(void)
 {
- int        status;
- void      *value;
- int        threadnum;
- int       *tnum;
- void      *getvalue;
- char       Buffer[BUFFSZ];
-
- tnum = parm;
- threadnum = *tnum;
-
- printf("Thread %d executing\n", threadnum);
-
- if (!(value = malloc(sizeof(Buffer))))
-     printf("Thread %d could not allocate storage, errno = %d\n",
-                                                  threadnum, errno);
- status = pthread_setspecific(key, (void *) value);
- if ( status <  0) {
-    printf("pthread_setspecific failed, thread %d, errno %d",
-                                                  threadnum, errno);
-    pthread_exit((void *)12);
- }
- printf("Thread %d setspecific value: %d\n", threadnum, value);
-
- getvalue = 0;
- status = pthread_getspecific(key, &getvalue);
- if ( status <  0) {
-    printf("pthread_getspecific failed, thread %d, errno %d",
-                                                  threadnum, errno);
-    pthread_exit((void *)13);
- }
-
- if (getvalue != value) {
-   printf("getvalue not valid, getvalue=%d", (int)getvalue);
-   pthread_exit((void *)68);
- }
-
- pthread_exit((void *)0);
+	const int* ptr = global_index_data;
+	//*ptr+=1;	//should fail
+	static int i=0;
+	for(i=0;i<SIZE;i+=1)
+		printf("Data Read:0x%x\n",ptr[i]);
+	return NULL;
 }
 
-void  destr_fn(void *parm)
+void* thread_1(void)
 {
+	int* const ptr = &global_index_data[0];
+	*ptr = 0xFF;
+	printf("Thread-1 modified data\n");
+	return NULL;
+}
 
-   printf("Destructor function invoked\n");
-   free(parm);
+void* thread_2(void)
+{
+	int* const ptr = &global_index_data[1];
+	*ptr = 0xAA;
+	printf("Thread-2 modified data\n");
+	return NULL;
+
 }
 
 
-main() {
- int          getvalue;
- int          status;
- int          i;
- int          threadparm[threads];
- pthread_t    threadid[threads];
- int          thread_stat[threads];
+int main(void)
+{
+	static int i=0;
 
- if ((status = pthread_key_create(&key, destr_fn )) < 0) {
-    printf("pthread_key_create failed, errno=%d", errno);
-    exit(1);
- }
+	function_ptr[0] = thread_1;
+	function_ptr[1] = thread_2;
+	function_ptr[2] = read_data;
 
- /* create 3 threads, pass each its number */
- for (i=0; i<threads; i++) {
-    threadparm[i] = i+1;
-    status = pthread_create( &threadid[i],
-                             NULL,
-                             threadfunc,
-                             (void *)&threadparm[i]);
-    if ( status <  0) {
-       printf("pthread_create failed, errno=%d", errno);
-       exit(2);
-    }
-  }
+	for(i=0;i<2;i+=1)
+		printf("Data original: 0x%x\n",global_index_data[i]);
 
- for ( i=0; i<threads; i++) {
-    status = pthread_join( threadid[i], (void *)&thread_stat[i]);
-    if ( status <  0) {
-       printf("pthread_join failed, thread %d, errno=%d\n", i+1, errno);
-    }
+	for(i=0;i<3;i+=1)
+	{
+		pthread_create(&threads,NULL,function_ptr[i],0);
+		usleep(10000);
+	}
 
-    if (thread_stat[i] != 0)   {
-        printf("bad thread status, thread %d, status=%d\n", i+1,
-                                                   thread_stat[i]);
-      }
-  }
+	for(i=0;i<3;i+=1)
+	{
+		pthread_join(threads[i],NULL);
+	}
 
- exit(0);
+	return 0;
 }
