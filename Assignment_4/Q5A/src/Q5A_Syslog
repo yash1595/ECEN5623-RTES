@@ -1,0 +1,475 @@
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60305280.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60305348.000000us]frame 337:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60305368.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60312512.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60353372.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60353468.000000us]frame 338:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60353508.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60360732.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60405312.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60405392.000000us]frame 339:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60405468.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60412644.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60457192.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60457276.000000us]frame 340:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60457328.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60464584.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60505432.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60505500.000000us]frame 341:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60505520.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60512656.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60557228.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60557304.000000us]frame 342:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60557328.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60564548.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60605496.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60605568.000000us]frame 343:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60605596.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60612776.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60657268.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60657348.000000us]frame 344:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60657384.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60664596.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60709192.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60709268.000000us]frame 345:
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60709300.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:35 yash-desktop [Q5A][2062]: [TIME:60716524.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60757332.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60757456.000000us]frame 346:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60757492.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60764684.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60809236.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60809336.000000us]frame 347:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60809380.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60817136.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60857440.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60857524.000000us]frame 348:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60857556.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60864768.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60909260.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60909344.000000us]frame 349:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60909380.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60916588.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60961184.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60961260.000000us]frame 350:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60961284.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:60968516.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61009332.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61009456.000000us]frame 351:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61009484.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61016736.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61061220.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61061308.000000us]frame 352:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61061340.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61068608.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61109336.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61109428.000000us]frame 353:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61109468.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61116708.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61161260.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61161356.000000us]frame 354:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61161392.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61168684.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61213176.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61213256.000000us]frame 355:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61213288.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61220536.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61261272.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61261344.000000us]frame 356:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61261364.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61268596.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61313212.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61313288.000000us]frame 357:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61313316.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61320568.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61361332.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61361444.000000us]frame 358:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61361484.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61368688.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61413240.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61413320.000000us]frame 359:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61413352.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61420580.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61461380.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61461580.000000us]frame 360:
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61461620.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61468832.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:43:36 yash-desktop [Q5A][2062]: [TIME:61468908.000000us]Resolution -- [800x600] Conversion -- [CONTRAST] -- Frame rate[3.978807]fps
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81175064.000000us]Completed Reading frame.
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81177112.000000us]cap.capabilities:84200001
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81177168.000000us]FORCING FORMAT.
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: Using CPUS=1 from total available.
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81205952.000000]Pthread Policy is SCHED_FIFO
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: rt_max_prio=99
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: rt_min_prio=1
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206136.000000us]allocated buffer 0
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206192.000000us]allocated buffer 1
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206224.000000us]allocated buffer 2
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206248.000000us]allocated buffer 3
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206272.000000us]allocated buffer 4
+Jul 11 21:43:56 yash-desktop [Q5A][2062]: [TIME:81206304.000000us]allocated buffer 5
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93206296.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93206368.000000us]frame 361:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93206392.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93219008.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93219096.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93219120.000000us]frame 362:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93219152.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93231656.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93231744.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93231784.000000us]frame 363:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93231808.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93244288.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93244384.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93244424.000000us]frame 364:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93244440.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93256896.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93256984.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93257008.000000us]frame 365:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93257024.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93269552.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93269648.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93269688.000000us]frame 366:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93269720.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93282184.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93416480.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93416552.000000us]frame 367:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93416576.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93429024.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93516544.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93516616.000000us]frame 368:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93516632.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93529032.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93616568.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93616640.000000us]frame 369:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93616656.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93629072.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93716496.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93716568.000000us]frame 370:
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93716592.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:08 yash-desktop [Q5A][2062]: [TIME:93729056.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93816568.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93816640.000000us]frame 371:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93816656.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93829056.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93916576.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93916648.000000us]frame 372:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93916664.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:93929040.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94020536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94020616.000000us]frame 373:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94020632.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94033032.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94120552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94120632.000000us]frame 374:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94120648.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94133040.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94220576.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94220656.000000us]frame 375:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94220680.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94233112.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94320552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94320632.000000us]frame 376:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94320656.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94333136.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94420648.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94420720.000000us]frame 377:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94420744.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94433208.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94524440.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94524504.000000us]frame 378:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94524528.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94536944.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94624544.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94624608.000000us]frame 379:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94624632.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94637072.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94724520.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94724592.000000us]frame 380:
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94724608.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:09 yash-desktop [Q5A][2062]: [TIME:94737000.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94824584.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94824656.000000us]frame 381:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94824672.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94837152.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94924608.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94924672.000000us]frame 382:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94924696.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:94937184.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95024616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95024696.000000us]frame 383:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95024720.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95037192.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95128536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95128608.000000us]frame 384:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95128632.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95141016.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95228512.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95228592.000000us]frame 385:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95228616.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95241024.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95328584.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95328656.000000us]frame 386:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95328680.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95341112.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95428632.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95428696.000000us]frame 387:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95428720.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95441160.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95528608.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95528680.000000us]frame 388:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95528696.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95541128.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95632432.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95632512.000000us]frame 389:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95632536.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95645024.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95732552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95732616.000000us]frame 390:
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95732640.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95745080.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:10 yash-desktop [Q5A][2062]: [TIME:95745160.000000us]Resolution -- [960x720] Conversion -- [GRAY] -- Frame rate[2.378121]fps
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95832528.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95832600.000000us]frame 391:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95832624.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95839560.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95932592.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95932656.000000us]frame 392:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95932680.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:95939672.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96032640.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96032712.000000us]frame 393:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96032728.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96039720.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96132664.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96132736.000000us]frame 394:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96132768.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96139752.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96236488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96236568.000000us]frame 395:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96236584.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96243520.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96336568.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96336632.000000us]frame 396:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96336656.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96343600.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96436536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96436616.000000us]frame 397:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96436640.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96443600.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96536600.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96536680.000000us]frame 398:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96536704.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96543736.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96636616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96636696.000000us]frame 399:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96636720.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96643712.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96740488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96740552.000000us]frame 400:
+Jul 11 21:44:11 yash-desktop [Q5A][2062]: [TIME:96740576.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96747520.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96840504.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96840576.000000us]frame 401:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96840592.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96847536.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96940536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96940608.000000us]frame 402:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96940632.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:96947624.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97040544.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97040616.000000us]frame 403:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97040632.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97047568.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97140600.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97140672.000000us]frame 404:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97140696.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97147680.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97240616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97240688.000000us]frame 405:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97240720.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97247744.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97344520.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97344600.000000us]frame 406:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97344632.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97351672.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97444480.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97444560.000000us]frame 407:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97444592.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97451608.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97544560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97544640.000000us]frame 408:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97544664.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97551720.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97644616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97644696.000000us]frame 409:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97644728.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97651744.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97744616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97744688.000000us]frame 410:
+Jul 11 21:44:12 yash-desktop [Q5A][2062]: [TIME:97744704.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97751664.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97848496.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97848568.000000us]frame 411:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97848592.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97855592.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97948472.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97948552.000000us]frame 412:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97948584.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:97955680.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98048504.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98048584.000000us]frame 413:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98048616.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98055744.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98148560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98148640.000000us]frame 414:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98148664.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98155656.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98248600.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98248664.000000us]frame 415:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98248696.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98255648.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98352424.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98352512.000000us]frame 416:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98352536.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98359536.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98452544.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98452608.000000us]frame 417:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98452632.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98459640.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98552488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98552568.000000us]frame 418:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98552600.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98559640.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98652560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98652632.000000us]frame 419:
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98652656.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:13 yash-desktop [Q5A][2062]: [TIME:98659656.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98752592.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98752664.000000us]frame 420:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98752696.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98759736.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98759808.000000us]Resolution -- [960x720] Conversion -- [BRIGHTNESS] -- Frame rate[4.147823]fps
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98852616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98852688.000000us]frame 421:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98852704.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98863032.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98956488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98956568.000000us]frame 422:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98956592.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:98966808.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99056512.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99056584.000000us]frame 423:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99056600.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99066904.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99172512.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99172592.000000us]frame 424:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99172616.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99182968.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99272592.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99272664.000000us]frame 425:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99272696.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99283008.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99372592.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99372672.000000us]frame 426:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99372712.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99383032.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99476448.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99476536.000000us]frame 427:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99476568.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99486904.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99576488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99576576.000000us]frame 428:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99576608.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99586888.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99676560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99676648.000000us]frame 429:
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99676680.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:14 yash-desktop [Q5A][2062]: [TIME:99686976.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99776552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99776624.000000us]frame 430:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99776648.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99786944.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99876568.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99876648.000000us]frame 431:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99876672.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99886960.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99980448.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99980528.000000us]frame 432:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99980552.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:99990984.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100080512.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100080592.000000us]frame 433:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100080624.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100090904.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100180536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100180600.000000us]frame 434:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100180640.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100190912.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100280552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100280624.000000us]frame 435:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100280648.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100290920.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100388576.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100388656.000000us]frame 436:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100388696.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100399008.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100492448.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100492528.000000us]frame 437:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100492560.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100502864.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100592504.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100592584.000000us]frame 438:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100592616.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100602872.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100692520.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100692592.000000us]frame 439:
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100692616.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:15 yash-desktop [Q5A][2062]: [TIME:100702824.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100792552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100792640.000000us]frame 440:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100792672.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100802952.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100892560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100892632.000000us]frame 441:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100892672.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100902952.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100992616.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100992696.000000us]frame 442:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:100992712.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101002952.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101096560.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101096648.000000us]frame 443:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101096672.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101106992.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101196488.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101196576.000000us]frame 444:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101196600.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101206912.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101296552.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101296632.000000us]frame 445:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101296656.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101306936.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101396584.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101396656.000000us]frame 446:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101396672.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101407048.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101496576.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101496656.000000us]frame 447:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101496688.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101506992.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101600504.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101600600.000000us]frame 448:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101600632.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101611672.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101700568.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101700664.000000us]frame 449:
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101700688.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:16 yash-desktop [Q5A][2062]: [TIME:101711016.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:17 yash-desktop [Q5A][2062]: [TIME:101800536.000000us]Process image in-IO_METHOD_MMAP.
+Jul 11 21:44:17 yash-desktop [Q5A][2062]: [TIME:101800624.000000us]frame 450:
+Jul 11 21:44:17 yash-desktop [Q5A][2062]: [TIME:101800648.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 11 21:44:17 yash-desktop [Q5A][2062]: [TIME:101810984.000000us]time_error.tv_sec=547984306176, time_error.tv_nsec=0
+Jul 11 21:44:17 yash-desktop [Q5A][2062]: [TIME:101811064.000000us]Resolution -- [960x720] Conversion -- [CONTRAST] -- Frame rate[2.846848]fps
+Jul 11 21:44:32 yash-desktop [Q5A][2062]: [TIME:117206432.000000us]Completed Reading frame.
+

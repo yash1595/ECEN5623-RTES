@@ -1,0 +1,118 @@
+
+Jul 12 01:07:52 yash-desktop [5-B][8728]: [TIME:3929246.000000]WCET:0.672396ms
+Jul 12 01:07:52 yash-desktop [5-B][8728]: [TIME:3929272.750000]Best Case :0.000000ms
+Jul 12 01:07:52 yash-desktop [5-B][8728]: [TIME:3929296.250000]Average:0.593259ms
+
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4936716.000000us]frame 60:
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4936755.000000us]Dump YUYV converted to GREY size 38400.
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4937044.500000us]time_error.tv_sec=0, time_error.tv_nsec=0
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4937080.500000]WCET:0.656823ms
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4937106.000000]Best Case :0.397761ms
+Jul 12 01:07:53 yash-desktop [5-B][8728]: [TIME:4937129.000000]Average:0.462639ms
+
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5944701.500000us]frame 90:
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5944734.500000us]Dump YUYV converted to BRIGHTNESS size 38400.
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5945119.000000us]time_error.tv_sec=0, time_error.tv_nsec=0
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5945170.000000]WCET:0.700156ms
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5945194.500000]Best Case :0.456406ms
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5945217.000000]Average:0.539325ms
+Jul 12 01:07:54 yash-desktop [5-B][8728]: [TIME:5945238.000000us]Resolution[160x120]Execution Time for one resolution[2854.573975]ms.
+
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12951539.000000us]frame 120:
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12951563.000000us]Dump YUYV converted to Contrast size 153600.
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12953088.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12953126.000000]WCET:1.906875ms
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12953149.000000]Best Case :0.533229ms
+Jul 12 01:08:01 yash-desktop [5-B][8728]: [TIME:12953172.000000]Average:1.662823ms
+
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13959483.000000us]frame 150:
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13959514.000000us]Dump YUYV converted to GREY size 153600.
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13960365.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13960417.000000]WCET:1.717448ms
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13960445.000000]Best Case :0.956042ms
+Jul 12 01:08:02 yash-desktop [5-B][8728]: [TIME:13960468.000000]Average:1.075333ms
+
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14967452.000000us]frame 180:
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14967477.000000us]Dump YUYV converted to BRIGHTNESS size 153600.
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14968710.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14968750.000000]WCET:1.607188ms
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14968772.000000]Best Case :1.017812ms
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14968794.000000]Average:1.396661ms
+Jul 12 01:08:03 yash-desktop [5-B][8728]: [TIME:14968814.000000us]Resolution[320x240]Execution Time for one resolution[2851.448975]ms.
+
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21980062.000000us]frame 210:
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21980094.000000us]Dump YUYV converted to Contrast size 614400.
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21985800.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21985860.000000]WCET:6.284322ms
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21985884.000000]Best Case :1.411354ms
+Jul 12 01:08:10 yash-desktop [5-B][8728]: [TIME:21985906.000000]Average:5.757216ms
+
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22988154.000000us]frame 240:
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22988190.000000us]Dump YUYV converted to GREY size 614400.
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22991962.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22992052.000000]WCET:5.982552ms
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22992084.000000]Best Case :3.260834ms
+Jul 12 01:08:11 yash-desktop [5-B][8728]: [TIME:22992112.000000]Average:3.485180ms
+
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:23996010.000000us]frame 270:
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:23996040.000000us]Dump YUYV converted to BRIGHTNESS size 614400.
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:24000632.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:24000700.000000]WCET:4.991459ms
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:24000728.000000]Best Case :3.370416ms
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:24000750.000000]Average:4.795536ms
+Jul 12 01:08:12 yash-desktop [5-B][8728]: [TIME:24000772.000000us]Resolution[640x480]Execution Time for one resolution[2855.224365]ms.
+
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40437272.000000us]frame 300:
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40437300.000000us]Dump YUYV converted to Contrast size 960000.
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40445984.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40446052.000000]WCET:9.439844ms
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40446080.000000]Best Case :4.824167ms
+Jul 12 01:08:29 yash-desktop [5-B][8728]: [TIME:40446144.000000]Average:8.856694ms
+
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41949252.000000us]frame 330:
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41949280.000000us]Dump YUYV converted to GREY size 960000.
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41954160.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41954232.000000]WCET:8.908906ms
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41954264.000000]Best Case :4.988438ms
+Jul 12 01:08:30 yash-desktop [5-B][8728]: [TIME:41954288.000000]Average:5.218811ms
+
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43457388.000000us]frame 360:
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43457424.000000us]Dump YUYV converted to BRIGHTNESS size 960000.
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43464588.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43464668.000000]WCET:7.660312ms
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43464704.000000]Best Case :5.070104ms
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43464732.000000]Average:7.291668ms
+Jul 12 01:08:32 yash-desktop [5-B][8728]: [TIME:43464756.000000us]Resolution[800x600]Execution Time for one resolution[4289.806641]ms.
+
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77732768.000000us]frame 390:
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77732792.000000us]Dump YUYV converted to Contrast size 1382400.
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77745184.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77745256.000000]WCET:21.709375ms
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77745288.000000]Best Case :7.286250ms
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77745312.000000]Average:12.866992ms
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77832688.000000us]Process image in-IO_METHOD_MMAP.
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77832752.000000us]frame 391:
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77832776.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 12 01:09:06 yash-desktop [5-B][8728]: [TIME:77839576.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+
+
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80752880.000000us]frame 420:
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80752912.000000us]Dump YUYV converted to GREY size 1382400.
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80759856.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80759920.000000]WCET:12.725625ms
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80759960.000000]Best Case :6.965677ms
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80759984.000000]Average:7.335049ms
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80852800.000000us]Process image in-IO_METHOD_MMAP.
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80852888.000000us]frame 421:
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80852912.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 12 01:09:09 yash-desktop [5-B][8728]: [TIME:80863224.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+
+
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83776760.000000us]frame 450:
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83776784.000000us]Dump YUYV converted to BRIGHTNESS size 1382400.
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83786984.000000us]time_error.tv_sec=548222238720, time_error.tv_nsec=0
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83787040.000000]WCET:11.040208ms
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83787064.000000]Best Case :7.107239ms
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83787088.000000]Average:10.346396ms
+Jul 12 01:09:12 yash-desktop [5-B][8728]: [TIME:83787112.000000us]Resolution[960x720]Execution Time for one resolution[8580.742188]ms.
+Jul 12 01:09:28 yash-desktop [5-B][8728]: [TIME:99206424.000000us]Completed Reading frame.
