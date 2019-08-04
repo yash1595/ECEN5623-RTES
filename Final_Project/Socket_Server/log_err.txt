@@ -1,0 +1,63 @@
+gcc -c -o obj/main.o main.c -Wall -O0 -lpthread -lrt -I../inc
+In file included from main.c:1:0:
+../inc/server.h:38:29: error: expected ‘)’ before numeric constant
+ #define BUFF_SIZE (uint32_t(153600))
+                             ^
+../inc/server.h:59:30: note: in expansion of macro ‘BUFF_SIZE’
+ unsigned char receive_buffer[BUFF_SIZE];
+                              ^~~~~~~~~
+../inc/server.h:67:18: error: conflicting types for ‘start’
+ struct timespec* start;
+                  ^~~~~
+../inc/server.h:44:24: note: previous declaration of ‘start’ was here
+ struct timespec finish,start,difference;
+                        ^~~~~
+../inc/server.h:68:18: error: conflicting types for ‘finish’
+ struct timespec* finish;
+                  ^~~~~~
+../inc/server.h:44:17: note: previous declaration of ‘finish’ was here
+ struct timespec finish,start,difference;
+                 ^~~~~~
+../inc/server.h:69:18: error: conflicting types for ‘difference’
+ struct timespec* difference;
+                  ^~~~~~~~~~
+../inc/server.h:44:30: note: previous declaration of ‘difference’ was here
+ struct timespec finish,start,difference;
+                              ^~~~~~~~~~
+main.c: In function ‘main’:
+main.c:6:32: warning: passing argument 2 of ‘clock_gettime’ from incompatible pointer type [-Wincompatible-pointer-types]
+  clock_gettime(CLOCK_REALTIME, &start);
+                                ^
+In file included from /usr/include/pthread.h:24:0,
+                 from ../inc/server.h:25,
+                 from main.c:1:
+/usr/include/time.h:219:12: note: expected ‘struct timespec *’ but argument is of type ‘struct timespec **’
+ extern int clock_gettime (clockid_t __clock_id, struct timespec *__tp) __THROW;
+            ^~~~~~~~~~~~~
+main.c:30:2: error: ‘main_param’ undeclared (first use in this function); did you mean ‘rt_param’?
+  main_param.sched_priority=rt_max_prio;
+  ^~~~~~~~~~
+  rt_param
+main.c:30:2: note: each undeclared identifier is reported only once for each function it appears in
+main.c:55:20: warning: passing argument 3 of ‘pthread_create’ from incompatible pointer type [-Wincompatible-pointer-types]
+                    &ReadFrame ,                     // thread function entry point
+                    ^
+In file included from ../inc/server.h:25:0,
+                 from main.c:1:
+/usr/include/pthread.h:234:12: note: expected ‘void * (*)(void *)’ but argument is of type ‘void * (*)(void)’
+ extern int pthread_create (pthread_t *__restrict __newthread,
+            ^~~~~~~~~~~~~~
+In file included from main.c:1:0:
+main.c: At top level:
+../inc/server.h:52:24: error: storage size of ‘socket_receive’ isn’t known
+ struct COMMON_IMG_PROC socket_receive;
+                        ^~~~~~~~~~~~~~
+../inc/server.h:60:6: warning: array ‘pgm_dumpname_grey’ assumed to have one element
+ char pgm_dumpname_grey[];
+      ^~~~~~~~~~~~~~~~~
+../inc/server.h:61:6: warning: array ‘pgm_header’ assumed to have one element
+ char pgm_header[];
+      ^~~~~~~~~~
+Makefile:18: recipe for target 'obj/main.o' failed
+make: *** [obj/main.o] Error 1
+
