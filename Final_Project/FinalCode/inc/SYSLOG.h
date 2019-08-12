@@ -5,6 +5,6 @@
 
 void SyslogInit(void);
 float TimeValues(void);
-
+float TimeValuesMicro(void);
 
 #endif

@@ -42,8 +42,11 @@
 #define H640  "640"
 #define V480  "480"
 
-#define nano (int)(1000000000)
-
+#define nano		(int)(1000000000)
+#define DecNano 	(float)(0.000000001)
+#define divide_by_50ms  (int)(5)
+#define divide_by_100ms (int)(10)
+#define divide_by_1s    (int)(100)
 /*************************************************************************************/
 #define true (1)
 #define false (0)
@@ -53,6 +56,7 @@ int CAPTURE_RATE;
 #define SOCKET	"socket"
 #define _10HZ_	"10HZ"
 #define _1s_    (1)
+#define _600ms_ (600000000)
 #define _500ms_ (500000000)
 #define _490ms_ (490000000)
 #define _100ms_	(100000000)
@@ -64,15 +68,23 @@ int CAPTURE_RATE;
 #define _50ms_  (50000000)
 #define _5ms_	(5000000)
 
-#define TotalFrames 		(11)
+#define TotalFrames 		(100)
 
 #define SCHED_BITMASK		(uint8_t)(0x03)
 #define GREY_BITMASK		(uint8_t)(0X01)
 #define READ_BITMASK		(uint8_t)(0X02)
-
+#define _10HZ_MODE		(uint8_t)(10)
+#define _1HZ_MODE		(uint8_t)(1)
+#define SKIP_FRAMES		(uint8_t)(150)
+#define IMG_SIZE		(uint32_t)(307200)
+#define lower_limit_thresh	(int)(-12)
+#define upper_limit_thresh	(int)(30)
+#define shifted_frame_thresh	(uint32_t)(800)
+#define max_sched_frames	(uint32_t)(200000)
 
 uint8_t TASK_BITMASK;
 uint32_t OldframeCount;
+int TotalFrameCount;
 
 int ReadFrameCount;
 
@@ -112,7 +124,7 @@ struct buffer
 @ brief: Inter thread communication mechanisms.
 ***************************************************************************/
 
-sem_t semA, semB;
+sem_t semRead, semGray;
 
 #define NUM_THREADS		(5)
 #define NUM_CPU_CORES		(3)
@@ -157,6 +169,7 @@ int diff_sec, diff_nsec;
 struct timespec start_pthread_grey, stop_pthread_grey;
 struct timespec start_read_frame, stop_read_frame;
 struct timespec start_dump_pgm, stop_dump_pgm;
+struct timespec start_scheduler, stop_scheduler;
 
 /************************************************************************************/
 int              fd;
@@ -166,9 +179,10 @@ int              frame_count;
 
 unsigned char gray_ptr[(1280*960)];
 
-#define GREY	(0)
-#define READ	(1)
-#define DUMP	(2)
+#define GREY		(0)
+#define READ		(1)
+#define DUMP		(2)
+#define SCHEDULER	(3)
 
 #define START	(0)
 #define STOP	(1)
@@ -176,22 +190,28 @@ unsigned char gray_ptr[(1280*960)];
 typedef struct 
 {
 	 int frame_index;
-	 float grey_thread[TEST_FRAMES][2];
-	 float read_thread[TEST_FRAMES][2];
-	 float dump_thread[TEST_FRAMES][2];
-	 float grey_time[TEST_FRAMES];
-	 float read_time[TEST_FRAMES];
-	 float dump_time[TEST_FRAMES];
+	 float grey_thread[TotalFrames][2];
+	 float read_thread[TotalFrames][2];
+	 float dump_thread[TotalFrames][2];
+	 float read_time[TotalFrames];
+         float grey_time[TotalFrames];
+         float dump_time[TotalFrames];
+	 //float distribution_count[][Total];
 }exectimes;
 
 exectimes exec_time;
-
-unsigned int framecnt;
+float sched_time[max_sched_frames];
+float sched_thread[max_sched_frames][2];
+int independent_sched;
 int independent;
+unsigned int framecnt;
+float sum;
 
-int HRES[5];
-int VRES[5];
+int HRES;
+int VRES;
 char* dev_name;
 unsigned int pgm_header_len;
+void print_scheduler(void);
+int xioctl(int fh, int request, void *arg);
 
 #endif

@@ -1,4 +1,13 @@
 #include "client.h"
+#include "SYSLOG.h"
+#include "camera.h"
+#include "deadline.h"
+#include "nonblur.h"
+#include "pthread_dump_pgm.h"
+#include "pthread_gray.h"
+#include "pthread_read_frame.h"
+#include "pthread_scheduler.h"
+#include "thread_init.h"
 
 int ReadFrameCount;
 
@@ -36,22 +45,20 @@ int ConnectToServer(void)
 
 void* SendToServer(void)
 {
-while(1);
-/*
+
+
 	static int index_val = 0, send_rt, bytes_sent = 0;
-	static int frame_confirmation = 0, new_frame_confirmation = 90, frame_count = 0, frame_time_confirm = 0;
+	static int frame_confirmation = 0, new_frame_confirmation = 90, frame_count = 0;
 	syslog(LOG_INFO,"ReadFrameCount:%d",ReadFrameCount);
-	while(PROCESS_COMPLETE_BIT != 1)
+	SOCKET_COMPLETE = 0;
+	socket_read = 99;
+
+	while(SOCKET_COMPLETE != 1)
 	{
 
 		if(((socket_read+1)%100 == circ_write))continue; 
-
-		socket_read = (socket_read+1)%100;
-
-		//syslog(LOG_INFO, "Socket size:%d",CIRCULAR_BUFFER[socket_read].SIZE);
+		socket_read = (socket_read + 1) % 100;
 		memcpy(split_array, CIRCULAR_BUFFER[socket_read].ptr, (CIRCULAR_BUFFER[socket_read].SIZE)); 
-		//syslog(LOG_INFO, "ReadFRameCount:%d",ReadFrameCount);
-
 		send_rt = 0;
 		bytes_sent = 0;
 		do
@@ -63,6 +70,8 @@ while(1);
 			}
 		}
 		while(bytes_sent < sizeof(struct timespec));
+
+		//send_rt = send(sock, CIRCULAR_BUFFER[socket_read].frame_conv_time, sizeof(struct timespec), 0);		
 
 		send_rt = 0;
 		index_val=0;
@@ -93,11 +102,10 @@ while(1);
 		while(frame_confirmation !=  new_frame_confirmation);
 		frame_confirmation += 1 ;	
 		frame_count+=1;
-		if(frame_confirmation >= TotalFrames)break;	
-		
-			
+		if(frame_confirmation >= TotalFrames)SOCKET_COMPLETE = 1;	
+	
 		
 	}
-*/
+	return 0;
 }
  

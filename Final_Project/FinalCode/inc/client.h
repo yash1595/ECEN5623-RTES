@@ -12,7 +12,6 @@
 #define PORT 8080
 #define SERVER_ADDR	"192.168.50.104"
 #define RETRY_COUNT	(5)
-#define IMG_SIZE	((uint32_t)(307200))
 #define INDEX_1		(75)
 #define INDEX_2		(4096)
 
@@ -23,6 +22,7 @@ int sock, receive;
 int retry_count, socket_read;
 struct sockaddr_in server;
 int StartBit;
+int SOCKET_COMPLETE;
 
 unsigned char split_array[IMG_SIZE];
 

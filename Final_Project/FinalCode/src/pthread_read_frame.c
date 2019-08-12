@@ -2,13 +2,15 @@
 #include "deadline.h"
 #include "pthread_read_frame.h"
 
+/*****************************************************************
+*@brief : Function captures frames and stores them in buffers
+*@params: None
+*@return: None
+*****************************************************************/
 void* ReadFrame(void)
 {
 	struct v4l2_buffer buf;
-	unsigned int i;
-
 	fd_set fds;                                                                             // Predefined buffer. 
-
 	struct timeval tv;
 	int r;
 	int EINTR_flag = 0;
@@ -16,10 +18,9 @@ void* ReadFrame(void)
 	while(PROCESS_COMPLETE_BIT!=1)
 	{
 
-	     	   sem_wait(&semA);		 
-	    	   clock_gettime(CLOCK_REALTIME, &start_read_frame);
-		   exec_time.read_thread[OldframeCount][START]=GetTime(&start_read_frame);
-
+	     	    sem_wait(&semRead);							//Acquires the read semaphore
+		   	 
+	    	    clock_gettime(CLOCK_REALTIME, &start_read_frame);
 	    	    CLEAR(buf);
 	    	    buf.type = V4L2_BUF_TYPE_VIDEO_CAPTURE;                             // Type is set as enum value = 1.
 	    	    buf.memory = V4L2_MEMORY_MMAP; 
@@ -28,7 +29,7 @@ void* ReadFrame(void)
 	    		    FD_SET(fd, &fds);
 
 	    		    /* Timeout. */
-	    		    tv.tv_sec = 5;                                                                          // Maximum timeout limited up-to 2s.
+	    		    tv.tv_sec =  5;                                                                          // Maximum timeout limited up-to 2s.
 	    		    tv.tv_usec = 0;
 
 	    		    r = select(fd + 1, &fds, NULL, NULL, &tv);                                              // Waits for up to 2s before capturing an image.
@@ -61,6 +62,7 @@ void* ReadFrame(void)
 					    case EAGAIN:
 						    syslog(LOG_ERR,"[TIME:%fus]VIDIOC_DQBUF-EAGAIN",TimeValues());
 						    exit(1);
+						    //break;
 
 					    case EIO:
 						/* Could ignore EIO, see spec. */
@@ -75,29 +77,29 @@ void* ReadFrame(void)
 	    			
 	    		    }
 
-	    		    common_struct.ptr  = buffers[buf.index].start;
-	    		    common_struct.SIZE = buf.bytesused;
+	    		    common_struct.ptr  = buffers[buf.index].start;	//Stores the image in a global structure
+	    		    common_struct.SIZE = buf.bytesused;			//Stores the size of image in a global structure
 
 	    		    assert(buf.index < n_buffers);
 
-	    		    if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))
+	    		    if (-1 == xioctl(fd, VIDIOC_QBUF, &buf))		//Dequeues buffer
+			    {
 	    			syslog(LOG_ERR,"[TIME:%fus]VIDIOC_QBUF",TimeValues());  
+			    }
+	    		    
+	    		    ReadFrameCount+=1;   				//Increments read frame count after each successful frame count
 
-	    		    // record when process was called
-	    		                                                        // Gets 
-	    		    ReadFrameCount+=1;   
-			
+			    clock_gettime(CLOCK_REALTIME, &stop_read_frame);
+
+			    syslog(LOG_INFO,"[TIME:%0.3fs]!![JITTER Stop  time pthread_read]",TimeValues());	//Displays stop time of read
+			    syslog(LOG_INFO,"[TIME:%0.3fs]!![JITTER Diff  time pthread_read]:%fs",TimeValues(),  ExecutionTimeCal(&start_read_frame,&stop_read_frame));							//Displays execution time of read thread
+				exec_time.read_time[independent] = ExecutionTimeCal(&start_read_frame,&stop_read_frame); //Stores execution time in global structure
+			    
 	    		}
 			
-			clock_gettime(CLOCK_REALTIME, &stop_read_frame);
-
-			syslog(LOG_INFO,"[TIME:%0.3fs]!![Stop  time pthread_read]",TimeValues());
-			syslog(LOG_INFO,"[TIME:%0.3fs]!![Diff  time pthread_read]:%0.3fs",TimeValues(),  ExecutionTimeCal(&start_read_frame,&stop_read_frame));
-			 exec_time.read_time[independent]= ExecutionTimeCal(&start_read_frame,&stop_read_frame);
-
-    			TASK_BITMASK |= READ_BITMASK;
+    			TASK_BITMASK |= READ_BITMASK;						       //Sets the Read thread bit in task bitmask
 		    
     		}
-
+ pthread_exit(0);
 }
 

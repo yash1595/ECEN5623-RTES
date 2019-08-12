@@ -340,8 +340,8 @@ int InitDevice(void)
     if (force_format)
     {
         syslog(LOG_INFO,"[TIME:%fus]FORCING FORMAT.", TimeValues());
-        fmt.fmt.pix.width       = HRES[resolution];                                                          // Sets the HRES to 320
-        fmt.fmt.pix.height      = VRES[resolution];                                                          // Sets the VRES to 240
+        fmt.fmt.pix.width       = HRES;                                                          // Sets the HRES to 640
+        fmt.fmt.pix.height      = VRES;                                                          // Sets the VRES to 480
 
 
         fmt.fmt.pix.pixelformat = V4L2_PIX_FMT_YUYV; 
